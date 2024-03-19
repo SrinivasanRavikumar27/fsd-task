@@ -1,0 +1,275 @@
+
+Guvi Zen Class Sample Database
+------------------------------
+
+
+// create database:
+-------------------
+
+create database zen_class;
+
+
+//  Students table:
+------------------
+
+CREATE TABLE students (
+  student_id INT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  phone VARCHAR(15),
+  date_of_birth DATE,
+  instructor_id INT,
+  mentor_id INT,
+  coordinator_id INT,
+  course_details_id INT,
+  link_id INT,
+  query_support_id INT,
+  content_id INT,
+  feedback_id INT,
+  assessment_id INT,
+  batch_id INT,
+  attendance_id INT,
+  FOREIGN KEY (instructor_id) REFERENCES instructors(instructor_id),
+  FOREIGN KEY (mentor_id) REFERENCES mentors(mentor_id),
+  FOREIGN KEY (coordinator_id) REFERENCES coordinators(coordinator_id),
+  FOREIGN KEY (course_details_id) REFERENCES courses_details(course_id),
+  FOREIGN KEY (link_id) REFERENCES link_details(link_id),
+  FOREIGN KEY (query_support_id) REFERENCES query_support_details(query_id),
+  FOREIGN KEY (content_id) REFERENCES content_details(content_id),
+  FOREIGN KEY (feedback_id) REFERENCES feedback_details(feedback_id),
+  FOREIGN KEY (assessment_id) REFERENCES assessment(assessment_id),
+  FOREIGN KEY (batch_id) REFERENCES batch_details(batch_id),
+  FOREIGN KEY (attendance_id) REFERENCES attendance(attendance_id)
+);
+
+
+//  instructors  table:
+-----------------------
+
+CREATE TABLE instructors (
+  instructor_id INT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  phone VARCHAR(15),
+  date_of_birth DATE,
+  student_id INT,
+  mentor_id INT,
+  coordinator_id INT,
+  course_details_id INT,
+  link_id INT,
+  query_support_id INT,
+  content_id INT,
+  feedback_id INT,
+  assessment_id INT,
+  batch_id INT,
+  attendance_id INT,
+  FOREIGN KEY (student_id) REFERENCES students(student_id),
+  FOREIGN KEY (mentor_id) REFERENCES mentors(mentor_id),
+  FOREIGN KEY (coordinator_id) REFERENCES coordinators(coordinator_id),
+  FOREIGN KEY (course_details_id) REFERENCES courses_details(course_id),
+  FOREIGN KEY (link_id) REFERENCES link_details(link_id),
+  FOREIGN KEY (query_support_id) REFERENCES query_support_details(query_id),
+  FOREIGN KEY (content_id) REFERENCES content_details(content_id),
+  FOREIGN KEY (feedback_id) REFERENCES feedback_details(feedback_id),
+  FOREIGN KEY (assessment_id) REFERENCES assessment(assessment_id),
+  FOREIGN KEY (batch_id) REFERENCES batch_details(batch_id),
+  FOREIGN KEY (attendance_id) REFERENCES attendance(attendance_id)
+);
+
+
+//  mentors   table:
+-----------------------
+
+CREATE TABLE mentors (
+  mentor_id INT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  phone VARCHAR(15),
+  date_of_birth DATE,
+  student_id INT,
+  instructor_id INT,
+  coordinator_id INT,
+  course_details_id INT,
+  link_id INT,
+  query_support_id INT,
+  content_id INT,
+  feedback_id INT,
+  assessment_id INT,
+  batch_id INT,
+  attendance_id INT,
+  FOREIGN KEY (student_id) REFERENCES students(student_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructors(instructor_id),
+  FOREIGN KEY (coordinator_id) REFERENCES coordinators(coordinator_id),
+  FOREIGN KEY (course_details_id) REFERENCES courses_details(course_id),
+  FOREIGN KEY (link_id) REFERENCES link_details(link_id),
+  FOREIGN KEY (query_support_id) REFERENCES query_support_details(query_id),
+  FOREIGN KEY (content_id) REFERENCES content_details(content_id),
+  FOREIGN KEY (feedback_id) REFERENCES feedback_details(feedback_id),
+  FOREIGN KEY (assessment_id) REFERENCES assessment(assessment_id),
+  FOREIGN KEY (batch_id) REFERENCES batch_details(batch_id),
+  FOREIGN KEY (attendance_id) REFERENCES attendance(attendance_id)
+);
+
+
+//  coordinators    table:
+--------------------------
+
+CREATE TABLE coordinators (
+  coordinator_id INT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  phone VARCHAR(15),
+  date_of_birth DATE,
+  student_id INT,
+  instructor_id INT,
+  mentor_id INT,
+  course_details_id INT,
+  link_id INT,
+  query_support_id INT,
+  content_id INT,
+  feedback_id INT,
+  assessment_id INT,
+  batch_id INT,
+  attendance_id INT,
+  FOREIGN KEY (student_id) REFERENCES students(student_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructors(instructor_id),
+  FOREIGN KEY (mentor_id) REFERENCES mentors(mentor_id),
+  FOREIGN KEY (course_details_id) REFERENCES courses_details(course_id),
+  FOREIGN KEY (link_id) REFERENCES link_details(link_id),
+  FOREIGN KEY (query_support_id) REFERENCES query_support_details(query_id),
+  FOREIGN KEY (content_id) REFERENCES content_details(content_id),
+  FOREIGN KEY (feedback_id) REFERENCES feedback_details(feedback_id),
+  FOREIGN KEY (assessment_id) REFERENCES assessment(assessment_id),
+  FOREIGN KEY (batch_id) REFERENCES batch_details(batch_id),
+  FOREIGN KEY (attendance_id) REFERENCES attendance(attendance_id)
+);
+
+
+//  session_details     table:
+------------------------------
+
+CREATE TABLE session_details (
+  session_id INT PRIMARY KEY AUTO_INCREMENT,
+  session_name VARCHAR(100) NOT NULL,
+  start_date DATE,
+  end_date DATE,
+  course_id INT,
+  FOREIGN KEY (course_id) REFERENCES courses_details(course_id)
+);
+
+
+//  task_details      table:
+------------------------------
+
+CREATE TABLE task_details (
+  task_id INT PRIMARY KEY AUTO_INCREMENT,
+  task_name VARCHAR(100) NOT NULL,
+  description TEXT,
+  deadline DATE,
+  course_id INT,
+  FOREIGN KEY (course_id) REFERENCES courses_details(course_id)
+);
+
+
+//  link_details     table:
+------------------------------
+
+CREATE TABLE link_details (
+  link_id INT PRIMARY KEY AUTO_INCREMENT,
+  url VARCHAR(255) NOT NULL,
+  description TEXT
+);
+
+
+//  attendance      table:
+------------------------------
+
+CREATE TABLE attendance (
+  attendance_id INT PRIMARY KEY AUTO_INCREMENT,
+  date DATE,
+  status ENUM('Present', 'Absent', 'Late', 'Excused'),
+  student_id INT,
+  FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+
+
+//  assessment       table:
+------------------------------
+
+CREATE TABLE assessment (
+  assessment_id INT PRIMARY KEY AUTO_INCREMENT,
+  assessment_name VARCHAR(100) NOT NULL,
+  description TEXT,
+  course_id INT,
+  FOREIGN KEY (course_id) REFERENCES courses_details(course_id)
+);
+
+
+//  courses_details     table:
+------------------------------
+
+CREATE TABLE courses_details (
+  course_id INT PRIMARY KEY AUTO_INCREMENT,
+  course_name VARCHAR(100) NOT NULL,
+  duration INT,
+  start_date DATE,
+  end_date DATE
+);
+
+
+//  feedback_details   table:
+------------------------------
+
+CREATE TABLE feedback_details (
+  feedback_id INT PRIMARY KEY AUTO_INCREMENT,
+  student_id INT,
+  instructor_id INT,
+  feedback_text TEXT NOT NULL,
+  FOREIGN KEY (student_id) REFERENCES students(student_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructors(instructor_id)
+);
+
+
+//  query_support_details table:
+---------------------------------
+
+CREATE TABLE query_support_details (
+  query_id INT PRIMARY KEY AUTO_INCREMENT,
+  student_id INT,
+  instructor_id INT,
+  mentor_id INT,
+  coordinator_id INT,
+  query_text TEXT NOT NULL,
+  status ENUM('Pending', 'Resolved'),
+  FOREIGN KEY (student_id) REFERENCES students(student_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructors(instructor_id),
+  FOREIGN KEY (mentor_id) REFERENCES mentors(mentor_id),
+  FOREIGN KEY (coordinator_id) REFERENCES coordinators(coordinator_id)
+);
+
+
+//  batch_details  table:
+---------------------------------
+
+CREATE TABLE batch_details (
+  batch_id INT PRIMARY KEY AUTO_INCREMENT,
+  batch_name VARCHAR(100) NOT NULL,
+  start_date DATE,
+  end_date DATE
+);
+
+
+//  content_details   table:
+---------------------------------
+
+CREATE TABLE content_details (
+  content_id INT PRIMARY KEY AUTO_INCREMENT,
+  content_name VARCHAR(100) NOT NULL,
+  type VARCHAR(50),
+  description TEXT
+);
+

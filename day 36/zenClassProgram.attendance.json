@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aab"
+  },
+  "attendanceId": "attendanceId1",
+  "user_id": "userId1",
+  "date": "01/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aac"
+  },
+  "attendanceId": "attendanceId2",
+  "user_id": "userId2",
+  "date": "02/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aad"
+  },
+  "attendanceId": "attendanceId3",
+  "user_id": "userId3",
+  "date": "03/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aae"
+  },
+  "attendanceId": "attendanceId4",
+  "user_id": "userId4",
+  "date": "04/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aaf"
+  },
+  "attendanceId": "attendanceId5",
+  "user_id": "userId5",
+  "date": "05/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab0"
+  },
+  "attendanceId": "attendanceId6",
+  "user_id": "userId6",
+  "date": "06/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab1"
+  },
+  "attendanceId": "attendanceId7",
+  "user_id": "userId7",
+  "date": "07/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab2"
+  },
+  "attendanceId": "attendanceId8",
+  "user_id": "userId8",
+  "date": "08/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab3"
+  },
+  "attendanceId": "attendanceId9",
+  "user_id": "userId9",
+  "date": "09/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab4"
+  },
+  "attendanceId": "attendanceId10",
+  "user_id": "userId10",
+  "date": "10/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab5"
+  },
+  "attendanceId": "attendanceId11",
+  "user_id": "userId11",
+  "date": "11/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab6"
+  },
+  "attendanceId": "attendanceId12",
+  "user_id": "userId12",
+  "date": "12/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab7"
+  },
+  "attendanceId": "attendanceId13",
+  "user_id": "userId13",
+  "date": "13/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab8"
+  },
+  "attendanceId": "attendanceId14",
+  "user_id": "userId14",
+  "date": "14/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0ab9"
+  },
+  "attendanceId": "attendanceId15",
+  "user_id": "userId15",
+  "date": "15/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0aba"
+  },
+  "attendanceId": "attendanceId16",
+  "user_id": "userId16",
+  "date": "16/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0abb"
+  },
+  "attendanceId": "attendanceId17",
+  "user_id": "userId17",
+  "date": "17/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0abc"
+  },
+  "attendanceId": "attendanceId18",
+  "user_id": "userId18",
+  "date": "18/10/2023",
+  "status": "Absent"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0abd"
+  },
+  "attendanceId": "attendanceId19",
+  "user_id": "userId19",
+  "date": "19/10/2023",
+  "status": "Present"
+},
+{
+  "_id": {
+    "$oid": "65c4af408d504aa9139f0abe"
+  },
+  "attendanceId": "attendanceId20",
+  "user_id": "userId20",
+  "date": "20/10/2023",
+  "status": "Absent"
+}]

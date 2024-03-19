@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey From</title>
+
+       <!-- bootstrap -->
+
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+       <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <form id="surveyForm">
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="name">Name <span style="color: red;">*</span></label>
+                </div>
+            </div>
+            <div class="row name">
+                <div class="col-3">
+                    <input type="text" name="frist" id="name" >
+                    <br>
+                    <small id="nameHelp" class="form-text text-muted">Frist </small>
+                </div>
+                <div class="col-3">
+                    <input type="text" name="last" id="name" >
+                    <br>
+                    <small id="nameHelp" class="form-text text-muted">Last </small>
+                </div>
+        </div>
+
+        <br>
+        
+        <div class="row">
+            <div class="col-6">
+                <label for="email">Email <span style="color: red;">*</span></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-9 col-sm-12">
+                <input type="text" name="email" id="email" >
+            </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-9 col-sm-12">
+            <label for="experience">Your Experience <span style="color: red;">*</span></label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 rating">
+            <span class="star" onclick="rate(1)">&#9733;</span>
+            <span class="star" onclick="rate(2)">&#9733;</span>
+            <span class="star" onclick="rate(3)">&#9733;</span>
+            <span class="star" onclick="rate(4)">&#9733;</span>
+            <span class="star" onclick="rate(5)">&#9733;</span>
+    </div>
+</div>
+    
+<br>
+
+    
+      <small>Overall.how would you rate your experience with us?</small>     
+
+
+
+    <br>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-9 col-sm-12">
+           <label for="satisfied">How satisfied are you with <span style="color: red;">*</span></label>
+        </div>
+    </div>
+    <table class="table table-borderless table-striped">
+        <thead>
+            <tr>
+                <th></th>
+                <th><small>Very Unsatisfied</small></th>
+                <th><small>Unsatisfied</small></th>
+                <th><small>Neutral</small></th>
+                <th><small>Satisfied</small></th>
+                <th><small>Very Satisfied</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="head">Purchase</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+            <tr>
+                <th class="head">Service</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+            <tr>
+                <th class="head">Company Overall</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-9 col-sm-12">
+           <label for="likely">How satisfied are you with <span style="color: red;">*</span></label>
+        </div>
+    </div>
+    <table class="table table-borderless table-striped">
+        <thead>
+            <tr>
+                <th></th>
+                <th><small>Very Unlikely</small></th>
+                <th><small>Unlikely</small></th>
+                <th><small>Neutral</small></th>
+                <th><small>Likely</small></th>
+                <th><small>Very Likely</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="head">Buy from us again</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+            <tr>
+                <th class="head">Recommend our product to others</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+            <tr>
+                <th class="head">Recommend our company to others</th>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+                <td><input class="form-check-input" type="radio" ></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <label for="suggests">Additional comments or suggestions</label>
+        </div>
+    </div>
+    <div>
+        <textarea name="suggests" id="suggests"  rows="4"></textarea>
+    </div>
+
+    <br>
+
+    <button type="submit" class="btn btn-outline-primary">Submit</button>
+
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

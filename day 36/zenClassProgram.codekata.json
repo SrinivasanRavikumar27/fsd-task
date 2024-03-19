@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a94"
+  },
+  "codekataId": "codekataId1",
+  "user_id": "userId1",
+  "name": "Basic Java Programming",
+  "description": "Practice basic Java programming concepts",
+  "problems_solved": 15
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a95"
+  },
+  "codekataId": "codekataId2",
+  "user_id": "userId2",
+  "name": "Python Data Structures",
+  "description": "Learn and practice Python data structures",
+  "problems_solved": 20
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a96"
+  },
+  "codekataId": "codekataId3",
+  "user_id": "userId3",
+  "name": "JavaScript Algorithms",
+  "description": "Solve algorithms using JavaScript",
+  "problems_solved": 12
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a97"
+  },
+  "codekataId": "codekataId4",
+  "user_id": "userId4",
+  "name": "C++ Basics",
+  "description": "Practice basic concepts of C++ programming",
+  "problems_solved": 18
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a98"
+  },
+  "codekataId": "codekataId5",
+  "user_id": "userId5",
+  "name": "Data Analysis with Python",
+  "description": "Learn data analysis techniques using Python",
+  "problems_solved": 25
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a99"
+  },
+  "codekataId": "codekataId6",
+  "user_id": "userId6",
+  "name": "HTML/CSS Challenges",
+  "description": "Solve HTML/CSS challenges to improve front-end skills",
+  "problems_solved": 30
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9a"
+  },
+  "codekataId": "codekataId7",
+  "user_id": "userId7",
+  "name": "React.js Projects",
+  "description": "Build projects using React.js framework",
+  "problems_solved": 10
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9b"
+  },
+  "codekataId": "codekataId8",
+  "user_id": "userId8",
+  "name": "Java Spring Boot",
+  "description": "Learn to develop web applications using Java Spring Boot",
+  "problems_solved": 8
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9c"
+  },
+  "codekataId": "codekataId9",
+  "user_id": "userId9",
+  "name": "Python Flask Framework",
+  "description": "Explore Python Flask framework for web development",
+  "problems_solved": 6
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9d"
+  },
+  "codekataId": "codekataId10",
+  "user_id": "userId10",
+  "name": "Machine Learning Basics",
+  "description": "Introduction to machine learning algorithms and techniques",
+  "problems_solved": 15
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9e"
+  },
+  "codekataId": "codekataId11",
+  "user_id": "userId11",
+  "name": "Deep Learning Fundamentals",
+  "description": "Learn basics of deep learning and neural networks",
+  "problems_solved": 8
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0a9f"
+  },
+  "codekataId": "codekataId12",
+  "user_id": "userId12",
+  "name": "Database Design Challenges",
+  "description": "Solve database design problems and normalization challenges",
+  "problems_solved": 20
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa0"
+  },
+  "codekataId": "codekataId13",
+  "user_id": "userId13",
+  "name": "Node.js Projects",
+  "description": "Develop projects using Node.js runtime environment",
+  "problems_solved": 12
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa1"
+  },
+  "codekataId": "codekataId14",
+  "user_id": "userId14",
+  "name": "Software Testing Techniques",
+  "description": "Learn various software testing methodologies and techniques",
+  "problems_solved": 10
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa2"
+  },
+  "codekataId": "codekataId15",
+  "user_id": "userId15",
+  "name": "Agile Methodologies",
+  "description": "Understand agile development methodologies and practices",
+  "problems_solved": 8
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa3"
+  },
+  "codekataId": "codekataId16",
+  "user_id": "userId16",
+  "name": "Web Security Challenges",
+  "description": "Solve web security challenges and understand common vulnerabilities",
+  "problems_solved": 15
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa4"
+  },
+  "codekataId": "codekataId17",
+  "user_id": "userId17",
+  "name": "Android App Development",
+  "description": "Develop Android applications using Java/Kotlin",
+  "problems_solved": 10
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa5"
+  },
+  "codekataId": "codekataId18",
+  "user_id": "userId18",
+  "name": "iOS App Development",
+  "description": "Develop iOS applications using Swift",
+  "problems_solved": 5
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa6"
+  },
+  "codekataId": "codekataId19",
+  "user_id": "userId19",
+  "name": "UI/UX Design Challenges",
+  "description": "Solve UI/UX design challenges and improve design skills",
+  "problems_solved": 20
+},
+{
+  "_id": {
+    "$oid": "65c4adbb8d504aa9139f0aa7"
+  },
+  "codekataId": "codekataId20",
+  "user_id": "userId20",
+  "name": "Linux System Administration",
+  "description": "Learn Linux system administration and shell scripting",
+  "problems_solved": 10
+}]

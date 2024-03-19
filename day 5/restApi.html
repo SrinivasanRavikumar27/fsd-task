@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Rest Api</title>
+    </head>
+    <body>
+        <script>
+            // to create xml http request 
+            var xhr = new XMLHttpRequest();
+
+            // to assign method and url using open 
+            xhr.open('GET','https://restcountries.com/v3.1/all');
+
+            // request onload 
+            xhr.onload = function() {
+                
+                // to check status sucess or not 
+                if(xhr.status == 200){
+
+                    // request status sucess
+
+                    //  convert data json to object format
+                    var details = JSON.parse(xhr.responseText);
+
+                    // console.log(details) // to see data
+
+                    console.log("using For loop"); // using For loop 
+                    for(var i = 0; i <= details.length - 1 ; i++){
+                        console.log(details[i].flag);
+                    }
+
+                    console.log("using forin");// using forin 
+                    for (const key in details) {
+                        console.log(details[key].flag);
+                    }
+
+                    // to convert object into array 
+                    var detailsArray = Object.values(details);
+
+                    // console.log(detailsArray);  // to see object has array
+
+                    console.log("using for of");// using for of
+                    for (const key of detailsArray) {
+                        console.log(key.flag);
+                    }
+
+                    console.log("using foreach");// using foreach
+                    detailsArray.forEach(element => {
+                        console.log(element.flag);
+                    });
+
+                }else{
+                    // request status unsucess
+
+                    // to show error code on console
+                    console.log("Request Failed ! Status code : " + xhr.status);
+                }
+
+            }
+
+            // to send request 
+            xhr.send();
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&family=Roboto+Slab:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+.body{
+    font-family: 'Poppins',sans-serif ;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.col-8{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 175px;
+}
+
+.container .calculator h1{
+    display: flex;
+    justify-content: center;
+    color: #971717;
+}
+
+.container .calculator{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 70%;
+}
+
+.container button{
+    border-radius: 100px;
+    display: flex;
+    margin: 3px;
+    width: 12%;
+    height: 100%;
+    justify-content: center;
+    color: black;
+    background: linear-gradient(45deg, #ff6b6b, #556270);
+}
+
+.container input{
+    border-radius: 11px;
+    width: 51%;
+    height: 50px;
+    background: linear-gradient(45deg, #ff6b6b, #556270);
+    color:aliceblue
+}
+
+.container .history h1 {
+    margin-bottom: 10px;
+    color: #971717;
+  }
+
+.container .history{
+flex-basis: 30%;
+width: 100%;
+}
+
+.container .history #history-list{
+    height: 150px;
+    overflow-y: scroll;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.container .history button{
+     width: 100%;
+}
+
+.container .history ul{
+    width: 100%;
+}
+
+.container .history li {
+    list-style-type: decimal; /* Add bullet points to the list items */
+    margin-left: 10px; /* Adjust the left margin of list items for indentation */
+    background-color: #ff6b6b;
+  }
+
+

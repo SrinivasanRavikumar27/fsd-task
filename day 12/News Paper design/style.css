@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header h1,div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    height: 176px;
+}
+
+.card-body{
+    height: 110px;
+}
+
+.card-title{
+    font-size: small;
+}
+
+h3,h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-content{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.top-content .col-content{
+    flex-basis: 5%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.top-content .col-content img{
+    height: 175px;
+}
+
+.top-content .card-content{
+    flex-basis: 15%;
+    width:100%;
+    margin-right: 10px;
+}
+
+.top-content .para-content{
+    flex-basis: 35%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(161, 137, 128);
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+}
+
+.top-content .para-content .head-content{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.top-content .para-content .para{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-content .para-content .left-content{
+    flex-basis: 50%;
+    width:100%;
+}
+
+.top-content .para-content .right-content{
+    flex-basis: 50%;
+    width:100%;
+}
+
+.top-content .para-image-content{
+    flex-basis: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px 10px 0px 10px;
+}
+
+.top-content .para-image-content .left-content{
+    flex-basis: 50%;
+    width:100%;
+}
+
+.top-content .para-image-content .right-content{
+    flex-basis: 50%;
+    width:100%;
+}
+

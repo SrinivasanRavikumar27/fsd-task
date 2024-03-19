@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a52"
+  },
+  "userId": "userId1",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "01/08/2023",
+  "attendance": "attendanceId1",
+  "tasks": "taskId1"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a53"
+  },
+  "userId": "userId2",
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "05/08/2023",
+  "attendance": "attendanceId2",
+  "tasks": "taskId2"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a54"
+  },
+  "userId": "userId3",
+  "name": "Alice Johnson",
+  "email": "alice@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "10/08/2023",
+  "attendance": "attendanceId3",
+  "tasks": "taskId3"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a55"
+  },
+  "userId": "userId4",
+  "name": "Bob Brown",
+  "email": "bob@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "15/08/2023",
+  "attendance": "attendanceId4",
+  "tasks": "taskId4"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a56"
+  },
+  "userId": "userId5",
+  "name": "Michael Clark",
+  "email": "michael@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "20/08/2023",
+  "attendance": "attendanceId5",
+  "tasks": "taskId5"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a57"
+  },
+  "userId": "userId6",
+  "name": "Eva Davis",
+  "email": "eva@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "01/10/2023",
+  "attendance": "attendanceId6",
+  "tasks": "taskId6"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a58"
+  },
+  "userId": "userId7",
+  "name": "Ryan Wilson",
+  "email": "ryan@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "05/10/2023",
+  "attendance": "attendanceId7",
+  "tasks": "taskId7"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a59"
+  },
+  "userId": "userId8",
+  "name": "Sophia Martinez",
+  "email": "sophia@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "10/10/2023",
+  "attendance": "attendanceId8",
+  "tasks": "taskId8"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5a"
+  },
+  "userId": "userId9",
+  "name": "James Taylor",
+  "email": "james@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "15/10/2023",
+  "attendance": "attendanceId9",
+  "tasks": "taskId9"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5b"
+  },
+  "userId": "userId10",
+  "name": "Olivia White",
+  "email": "olivia@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "20/10/2023",
+  "attendance": "attendanceId10",
+  "tasks": "taskId10"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5c"
+  },
+  "userId": "userId11",
+  "name": "Emily Anderson",
+  "email": "emily@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "25/10/2023",
+  "attendance": "attendanceId11",
+  "tasks": "taskId11"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5d"
+  },
+  "userId": "userId12",
+  "name": "Daniel Harris",
+  "email": "daniel@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "01/11/2023",
+  "attendance": "attendanceId12",
+  "tasks": "taskId12"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5e"
+  },
+  "userId": "userId13",
+  "name": "Grace Brown",
+  "email": "grace@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "05/11/2023",
+  "attendance": "attendanceId13",
+  "tasks": "taskId13"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a5f"
+  },
+  "userId": "userId14",
+  "name": "Andrew Lee",
+  "email": "andrew@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "10/11/2023",
+  "attendance": "attendanceId14",
+  "tasks": "taskId14"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a60"
+  },
+  "userId": "userId15",
+  "name": "Hannah Wright",
+  "email": "hannah@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "15/11/2023",
+  "attendance": "attendanceId15",
+  "tasks": "taskId15"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a61"
+  },
+  "userId": "userId16",
+  "name": "Alexander Moore",
+  "email": "alexander@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "20/11/2023",
+  "attendance": "attendanceId16",
+  "tasks": "taskId16"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a62"
+  },
+  "userId": "userId17",
+  "name": "Madison Hall",
+  "email": "madison@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "25/11/2023",
+  "attendance": "attendanceId17",
+  "tasks": "taskId17"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a63"
+  },
+  "userId": "userId18",
+  "name": "David Wilson",
+  "email": "davidw@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "01/12/2023",
+  "attendance": "attendanceId18",
+  "tasks": "taskId18"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a64"
+  },
+  "userId": "userId19",
+  "name": "Victoria Green",
+  "email": "victoria@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "05/12/2023",
+  "attendance": "attendanceId19",
+  "tasks": "taskId19"
+},
+{
+  "_id": {
+    "$oid": "65c4abdc8d504aa9139f0a65"
+  },
+  "userId": "userId20",
+  "name": "Benjamin Turner",
+  "email": "benjamin@example.com",
+  "role": "student",
+  "password": "hashed_password",
+  "date_joined": "10/12/2023",
+  "attendance": "attendanceId20",
+  "tasks": "taskId20"
+}]

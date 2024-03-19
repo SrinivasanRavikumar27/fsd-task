@@ -1,0 +1,114 @@
+
+body{
+  max-width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.container-fluid{
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.rating {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .star {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .star.active {
+    color: gold;
+  }
+
+  table tr td,th{
+    text-align: center;
+  }
+
+  .head{
+    text-align: left;
+    width: 200px;
+  }
+
+  #email{
+    width: 530px;
+  }
+
+  textarea{
+    width: 705px;
+ }
+
+ .name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 390px; 
+}
+
+  @media (max-width: 767px) {
+    /* Your styles for mobile devices go here */
+
+    body{
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .name{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-left: -75px;
+      margin-right: -42px;
+    }
+
+    textarea{
+      width: 470px;;
+   }
+   
+    #email{
+      width: 470px;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Your styles for tablets go here */
+
+    body{
+      max-width: 100%;
+      padding-left: 18%;
+      padding-right: 18%;
+    }
+
+    .name{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-left: -87px;
+      margin-right: 100px;
+    }
+
+    textarea{
+       width: 560px;;
+    }
+    
+    #email{
+      width: 560px;
+    }
+
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    /* Your styles for desktops go here */
+  }
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    /* Your styles for desktops go here */
+  }
+
+  

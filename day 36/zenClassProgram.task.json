@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b20"
+  },
+  "taskId": "taskId1",
+  "user_id": "userId1",
+  "task_name": "Task 1",
+  "task_description": "Description for Task 1",
+  "date_assigned": "01/10/2020",
+  "deadline": "15/10/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b21"
+  },
+  "taskId": "taskId2",
+  "user_id": "userId2",
+  "task_name": "Task 2",
+  "task_description": "Description for Task 2",
+  "date_assigned": "03/10/2020",
+  "deadline": "18/10/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b22"
+  },
+  "taskId": "taskId3",
+  "user_id": "userId3",
+  "task_name": "Task 3",
+  "task_description": "Description for Task 3",
+  "date_assigned": "05/10/2020",
+  "deadline": "20/10/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b23"
+  },
+  "taskId": "taskId4",
+  "user_id": "userId4",
+  "task_name": "Task 4",
+  "task_description": "Description for Task 4",
+  "date_assigned": "07/10/2020",
+  "deadline": "22/10/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b24"
+  },
+  "taskId": "taskId5",
+  "user_id": "userId5",
+  "task_name": "Task 5",
+  "task_description": "Description for Task 5",
+  "date_assigned": "09/10/2020",
+  "deadline": "24/10/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b25"
+  },
+  "taskId": "taskId6",
+  "user_id": "userId6",
+  "task_name": "Task 6",
+  "task_description": "Description for Task 6",
+  "date_assigned": "11/10/2020",
+  "deadline": "26/10/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b26"
+  },
+  "taskId": "taskId7",
+  "user_id": "userId7",
+  "task_name": "Task 7",
+  "task_description": "Description for Task 7",
+  "date_assigned": "13/10/2020",
+  "deadline": "28/10/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b27"
+  },
+  "taskId": "taskId8",
+  "user_id": "userId8",
+  "task_name": "Task 8",
+  "task_description": "Description for Task 8",
+  "date_assigned": "15/10/2020",
+  "deadline": "30/10/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b28"
+  },
+  "taskId": "taskId9",
+  "user_id": "userId9",
+  "task_name": "Task 9",
+  "task_description": "Description for Task 9",
+  "date_assigned": "17/10/2020",
+  "deadline": "01/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b29"
+  },
+  "taskId": "taskId10",
+  "user_id": "userId10",
+  "task_name": "Task 10",
+  "task_description": "Description for Task 10",
+  "date_assigned": "19/10/2020",
+  "deadline": "03/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2a"
+  },
+  "taskId": "taskId11",
+  "user_id": "userId11",
+  "task_name": "Task 11",
+  "task_description": "Description for Task 11",
+  "date_assigned": "21/10/2020",
+  "deadline": "05/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2b"
+  },
+  "taskId": "taskId12",
+  "user_id": "userId12",
+  "task_name": "Task 12",
+  "task_description": "Description for Task 12",
+  "date_assigned": "23/10/2020",
+  "deadline": "07/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2c"
+  },
+  "taskId": "taskId13",
+  "user_id": "userId13",
+  "task_name": "Task 13",
+  "task_description": "Description for Task 13",
+  "date_assigned": "25/10/2020",
+  "deadline": "09/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2d"
+  },
+  "taskId": "taskId14",
+  "user_id": "userId14",
+  "task_name": "Task 14",
+  "task_description": "Description for Task 14",
+  "date_assigned": "27/10/2020",
+  "deadline": "11/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2e"
+  },
+  "taskId": "taskId15",
+  "user_id": "userId15",
+  "task_name": "Task 15",
+  "task_description": "Description for Task 15",
+  "date_assigned": "29/10/2020",
+  "deadline": "13/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b2f"
+  },
+  "taskId": "taskId16",
+  "user_id": "userId16",
+  "task_name": "Task 16",
+  "task_description": "Description for Task 16",
+  "date_assigned": "31/10/2020",
+  "deadline": "15/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b30"
+  },
+  "taskId": "taskId17",
+  "user_id": "userId17",
+  "task_name": "Task 17",
+  "task_description": "Description for Task 17",
+  "date_assigned": "02/11/2020",
+  "deadline": "17/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b31"
+  },
+  "taskId": "taskId18",
+  "user_id": "userId18",
+  "task_name": "Task 18",
+  "task_description": "Description for Task 18",
+  "date_assigned": "04/11/2020",
+  "deadline": "19/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b32"
+  },
+  "taskId": "taskId19",
+  "user_id": "userId19",
+  "task_name": "Task 19",
+  "task_description": "Description for Task 19",
+  "date_assigned": "06/11/2020",
+  "deadline": "21/11/2020",
+  "submitted": true,
+  "task_status": "completed"
+},
+{
+  "_id": {
+    "$oid": "65c4d9f58d504aa9139f0b33"
+  },
+  "taskId": "taskId20",
+  "user_id": "userId20",
+  "task_name": "Task 20",
+  "task_description": "Description for Task 20",
+  "date_assigned": "08/11/2020",
+  "deadline": "23/11/2020",
+  "submitted": false,
+  "task_status": "pending"
+}]

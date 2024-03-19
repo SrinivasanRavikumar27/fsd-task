@@ -1,0 +1,110 @@
+
+
+------------------------------------        MongoDB Task          ------------------------------------
+
+
+1) Find all the topics and tasks which are thought in the month of October?
+
+db.tasks.find({
+  "date_assigned": {
+    $gte: "01/10/2023",
+    $lte: "31/10/2023"
+  }
+})
+
+db.topics.find({
+  "date": {
+    $gte: "01/10/2023",
+    $lte: "31/10/2023"
+  }
+})
+
+
+
+2) Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+db.companyDrives.find({
+"date": {
+    $gte: "01/10/2023",
+    $lte: "31/10/2023"
+  }
+})
+
+
+3) Find all the company drives and students who are appeared for the placement.
+
+db.users.aggregate([
+  {
+$lookup:{
+from : "companyDrives",
+localField: "user_id",
+foreignField: "user_id",
+as: "student"
+}
+}
+])
+
+
+4) Find the number of problems solved by the user in codekata
+
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "codekata",
+      localField: "userId",
+      foreignField: "user_id",
+      as: "problem_solved"
+    }
+  },
+  {
+$project:{
+_id:0,
+problemSolved:"$problem_solved.problems_solved"
+}
+}
+]).forEach(doc => print(doc.problemSolved))
+
+
+5) Find all the mentors with who has the mentee's count more than 15
+
+db.mentors.find({ "mentees.14": { "$exists": true } })
+
+
+6) Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+
+db.users.aggregate([
+  {
+    $lookup: {
+      from: "attendance",
+      localField: "userId",
+      foreignField: "user_id",
+      as: "attendance"
+    }
+  },
+  {
+    $lookup: {
+      from: "task",
+      localField: "userId",
+      foreignField: "user_id",
+      as: "tasks"
+    }
+  },
+  {
+$match : {
+$and : [
+  {
+"attendance.date" : {
+$gte : "15/10/2020",
+$lte : "30/10/2020"
+}
+},
+  {
+"tasks.task_status" : "pending"
+}
+]
+}
+}
+])
+
+

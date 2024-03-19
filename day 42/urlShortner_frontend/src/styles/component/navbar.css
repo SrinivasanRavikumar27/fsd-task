@@ -1,0 +1,16 @@
+.head-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.flex-icon{
+width: 50px;
+}
+

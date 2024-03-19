@@ -1,0 +1,100 @@
+[{
+  "_id": "mentorId1",
+  "name": "Mentor 1",
+  "email": "mentor1@example.com",
+  "role": "mentor",
+  "password": "hashed_password",
+  "date_joined": "01/08/2023",
+  "attendance": "attendanceId6",
+  "tasks": "taskId6",
+  "mentees": [
+    "userId1",
+    "userId2",
+    "userId3",
+    "userId4",
+    "userId5",
+    "userId6",
+    "userId7",
+    "userId8"
+  ]
+},
+{
+  "_id": "mentorId2",
+  "name": "Mentor 2",
+  "email": "mentor2@example.com",
+  "role": "mentor",
+  "password": "hashed_password",
+  "date_joined": "05/08/2023",
+  "attendance": "attendanceId7",
+  "tasks": "taskId7",
+  "mentees": [
+    "userId9",
+    "userId10",
+    "userId11",
+    "userId12",
+    "userId13",
+    "userId14",
+    "userId15",
+    "userId16"
+  ]
+},
+{
+  "_id": "mentorId3",
+  "name": "Mentor 3",
+  "email": "mentor3@example.com",
+  "role": "mentor",
+  "password": "hashed_password",
+  "date_joined": "10/08/2023",
+  "attendance": "attendanceId8",
+  "tasks": "taskId8",
+  "mentees": [
+    "userId17",
+    "userId18",
+    "userId19",
+    "userId20",
+    "userId21",
+    "userId22",
+    "userId23",
+    "userId24"
+  ]
+},
+{
+  "_id": "mentorId4",
+  "name": "Mentor 4",
+  "email": "mentor4@example.com",
+  "role": "mentor",
+  "password": "hashed_password",
+  "date_joined": "15/08/2023",
+  "attendance": "attendanceId9",
+  "tasks": "taskId9",
+  "mentees": [
+    "userId25",
+    "userId26",
+    "userId27",
+    "userId28",
+    "userId29",
+    "userId30",
+    "userId31",
+    "userId32"
+  ]
+},
+{
+  "_id": "mentorId5",
+  "name": "Mentor 5",
+  "email": "mentor5@example.com",
+  "role": "mentor",
+  "password": "hashed_password",
+  "date_joined": "20/08/2023",
+  "attendance": "attendanceId10",
+  "tasks": "taskId10",
+  "mentees": [
+    "userId33",
+    "userId34",
+    "userId35",
+    "userId36",
+    "userId37",
+    "userId38",
+    "userId39",
+    "userId40"
+  ]
+}]

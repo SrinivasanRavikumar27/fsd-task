@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Xml Http Request</title>
+</head>
+<body>
+    <script>
+        // to create xml http request
+        var xhr = new XMLHttpRequest();
+
+        // http method define
+        var method = "GET";
+        var url = "https://restcountries.com/v3.1/all";
+
+        //request open 
+        xhr.open(method,url);
+
+        //request onload
+        xhr.onload = function(){
+
+            if(xhr.status == 200){
+
+//request was sucessful
+
+var details = JSON.parse(xhr.responseText);
+
+ console.log(details); //--- to see data 
+
+for(var i = 0;i <= details.length - 1;i++){
+
+    var lang = "";
+
+    if(details[i].hasOwnProperty("languages")){
+        var languageNames = Object.values(details[i].languages);
+        lang = languageNames;
+    }else{
+        lang = "";
+    }
+
+       console.log("Name of the Country:"+details[i].name.official +"\n" + 
+      "Region of the country:" + details[i].region + "\n" +
+       "Sub region of the country:" + details[i].subregion + "\n" +
+       "Country languages:" +lang + "\n" +
+       "Country Populations:" + details[i].population );
+       
+
+ }
+
+            }else{
+            //request was unsucessful
+            console.log("Request failed:",xhr.status);
+        }
+
+        };
+
+ // send request
+ xhr.send();
+
+    </script>
+</body>
+</html>
