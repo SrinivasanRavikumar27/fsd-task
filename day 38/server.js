@@ -110,12 +110,15 @@ let bookings = [
 ];
 
 // define host and port 
-const HOSTNAME = '127.0.0.1';
+// const HOSTNAME = '127.0.0.1';
 const PORT = 3000;
+
+const apiDoc = "https://documenter.getpostman.com/view/19026522/2sA2xpTpsZ";
 
 // get home page
 app.get('/',(request,response) => {
-    response.send('<h1>Hotel Booking</h1>');
+    response.send('<h1>Hotel Booking</h1>' + 
+    `<a href = "${apiDoc}" target = "_blank" >Api Documentation</a> for Hotel Booking.`);
 });
 
 // get all rooms
@@ -137,7 +140,7 @@ app.get('/booking', (request,response) => {
 app.get('/room/:id', (request,response) => {
     const id = request.params.id;
     const room = rooms.find( room => room.roomId == id);
-    if(note){
+    if(room){
         response.status(200).json(room);
     }else{
         response.status(404).json({message : "id not found"});
@@ -227,9 +230,8 @@ app.patch('/updateBooking/:id', (request,response) => {
 
 // server listener 
 app.listen(PORT,() => {
-    console.log(`server runnning at http://${HOSTNAME}:${PORT}`);
+    console.log(`server runnning at http://localhost:${PORT}`);
 });
 
 
-// published api documentation
-// https://documenter.getpostman.com/view/19026522/2sA2r3bSSt
+
